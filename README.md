@@ -19,3 +19,5 @@ To install requirements, run:
 > ```sh
 > $ pip install -r requirements.txt
 > ```
+
+Afterwards, the virtual environment should contain `annotated-types`, `anyio`, `click`, `exceptiongroup`, `fastapi`, `h11`, `idna`, `numpy`, `pandas`, `pydantic`, `pydantic-core`, `python-dateutil`, `pytz`, `six`, `sniffio`, `starlette`, `typing-extensions`, `tzdata`, and `uvicorn`.
