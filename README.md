@@ -21,3 +21,25 @@ To install requirements, run:
 > ```
 
 Run `pip list` again, the virtual environment should contain `annotated-types`, `anyio`, `certifi`, `click`, `exceptiongroup`, `fastapi`, `h11`, `httpcore`, `httpx`, `idna`, `iniconfig`, `numpy`, `packaging`, `pandas`, `pluggy`, `pydantic`, `pydantic-core`, `pytest`, `python-dateutil`, `pytz`, `six`, `sniffio`, `starlette`, `tomli`, `typing-extensions`, `tzdata`, and `uvicorn`.
+
+## TESTING:
+
+# /adjust_volume
+
+The use of [Postman](https://www.postman.com/) is recommended for endpoint testing.
+
+To test the `/cash-flow` endpoint, the parameters need to be formatted like so:
+
+```json
+{
+  "type": "quarterly",
+  "start_date": "2019-04-01"
+}
+```
+
+## API TESTING:
+
+To test the API endpoints, open the repo in VSCode (or something similar) and run the following:
+> ```sh
+> $ pytest endpoint_test.py
+> ```
