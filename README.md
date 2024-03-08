@@ -24,7 +24,7 @@ Run `pip list` again, the virtual environment should contain `annotated-types`, 
 
 ## TESTING:
 
-# /adjust_volume
+# /cash-flow
 
 The use of [Postman](https://www.postman.com/) is recommended for endpoint testing.
 
