@@ -24,11 +24,19 @@ Run `pip list` again, the virtual environment should contain `annotated-types`, 
 
 ## TESTING:
 
+Upon cloning the repository, navigate to the relevant folder, and run the following command:
+
+> ```sh
+> $ uvicorn main:app --reload
+> ```
+
+Afterwards, go to `http://localhost:8000/docs`.
+
 # /cash-flow
 
-The use of [Postman](https://www.postman.com/) is recommended for endpoint testing.
+[Postman](https://www.postman.com/) can also be used for endpoint testing.
 
-To test the `/cash-flow` endpoint, the parameters need to be formatted like so:
+On the `/cash-flow` POST request, click on 'Try it out' and paste the following into the 'Request body'. The parameters *must* follow this formatting.
 
 ```json
 {
